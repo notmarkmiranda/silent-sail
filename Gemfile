@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "rails", "~> 7.2.1"
 
+gem "bcrypt"
 gem "bootsnap", require: false
 gem "cssbundling-rails"
 gem "jbuilder"

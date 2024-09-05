@@ -1,0 +1,7 @@
+<%= form_with(model: @user, url: save_email_path, local: true) do |form| %>
+  <div class="mb-3">
+    <%= form.label :email, class: "form-label" %>
+    <%= form.email_field :email, required: true, class: "form-control" %>
+  </div>
+    <%= form.submit "Next", class: "btn btn-primary" %>
+<% end %>
